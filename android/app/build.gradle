@@ -179,7 +179,8 @@ android {
                 output.versionCodeOverride =
                         defaultConfig.versionCode * 1000 + versionCodes.get(abi)
             }
-
+            def apkName = "color-blind-capture.apk"
+            output.outputFileName = apkName
         }
     }
 }
